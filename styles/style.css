@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo_principal{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input_formulario{
+    margin: 0px auto; 
+    display:block;
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgb(179, 170, 170);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 1.6rem;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    outline-style: none;
+}
+
+.parrafo_datos{
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid rgb(179, 170, 170);
+    font-size: 1.9em;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+.parrafo_datos:hover{
+    transition: 300ms;
+    background-color: rgba(252, 252, 252, 0.966);
+    color: rgb(55, 144, 172);
+    cursor: pointer;
+    font-size: 2em;
+}
